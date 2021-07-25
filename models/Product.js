@@ -17,11 +17,13 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
+
     //==== Product name needs to be a string. Doesn't allow null values. ====//
     product_name: {
       type: DataTypes.STRING,
       allowNull: false
     },
+
     //==== Decimal. Doesn't allow null values. Validates that the value is a decimal. ====//
     price: {
       type: DataTypes.DECIMAL,
@@ -30,16 +32,18 @@ Product.init(
         isDecimal: true
       }
     },
+
     //==== Integer. Doesn't allow null values. Set a default value of `10`. Validates that the value is numeric. ====//
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
       validate: {
-        isNumeric: true, 
+        isNumeric: true,
       }
     },
-    //====    * Integer. References the `Category` model's `id`. ====//
+
+    //==== Integer. References the `Category` model's `id`. ====//
     category_id: {
       type: DataTypes.INTEGER,
       references: {
