@@ -13,6 +13,7 @@ Tag.init(
       primaryKey: true,
       autoIncrement: true
     },
+    //=== must be a string ====//
     tag_name: {
       type: DataTypes.STRING,
     }
