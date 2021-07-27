@@ -26,11 +26,17 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-## Video Link
+## Video Link 1:
+
+[Click here to view the video that covers the following:](https://drive.google.com/file/d/176uFwlo2HF_DLsLY6SUKcpzRBJyzx1fg/view)
 
 * The walkthrough video demonstrates how to create the schema from the MySQL shell.
 * The walkthrough video demonstrates how to seed the database from the command line.
 * The walkthrough video demonstrates how to start the application’s server.
+
+
+## Video Link 1:
+[Click here to view the video that covers the following:](https://drive.google.com/file/d/176uFwlo2HF_DLsLY6SUKcpzRBJyzx1fg/view)
 * The walkthrough video demonstrates GET routes for all categories, all products, and all tags being tested in Insomnia Core.
 * The walkthrough video demonstrates GET routes for a single category, a single product, and a single tag being tested in Insomnia Core.
 * The walkthrough video demonstrates POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia Core.
